@@ -1,0 +1,12 @@
+{
+  "name": "bun-second-build-eisdir-repro",
+  "private": true,
+  "scripts": {
+    "repro": "bun test repro.test.ts",
+    "control:no-preload": "bun test control-no-preload.test.ts",
+    "control:run": "bun control-run.ts"
+  },
+  "dependencies": {
+    "@noble/ciphers": "2.2.0"
+  }
+}

@@ -1,0 +1,5 @@
+# The bug requires the isolated install layout (symlinked node_modules/.bun
+# store). Pinned here so `bun install` reproduces it deterministically even in
+# a single-package project, where Bun otherwise defaults to hoisted.
+[install]
+linker = "isolated"
