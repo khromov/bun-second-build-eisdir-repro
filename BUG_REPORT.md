@@ -13,7 +13,7 @@ Linux 6.8.0-117-generic aarch64 unknown
 
 ## What steps can reproduce the bug?
 
-Full reproduction with controls: <REPO_URL> — `bun install && bun run repro`.
+Full reproduction with controls: https://github.com/khromov/bun-second-build-eisdir-repro — `bun install && bun run repro`.
 
 Self-contained version:
 
